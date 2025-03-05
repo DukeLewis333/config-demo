@@ -14,7 +14,7 @@ spring:
         enabled: true
       configurations:
         default:
-          name: customLoadBalancer
+          type: CUSTOM
 #eureka:
 #  instance:
 #    prefer-ip-address: true
