@@ -33,6 +33,8 @@ resilience4j:
         sliding-window-size: 100 # 滑动窗口的大小，用于记录最近的请求数
         failure-rate-threshold: 50 # 当失败率超过 50% 时，断路器会打开，进入打开状态
         wait-duration-in-open-state: 10000 # 断路器在打开状态下的等待时间（毫秒）
+        permitted-number-of-calls-in-half-open-state: 10
+        minimum-number-of-calls: 10
     instances:
       exampleServiceCircuitBreaker:
         base-config: default
