@@ -14,7 +14,7 @@ spring:
         enabled: true
       configurations:
         default:
-          type: RANDOM
+          type: ROUND_ROBIN
 #eureka:
 #  instance:
 #    prefer-ip-address: true
