@@ -44,3 +44,12 @@ resilience4j:
     instances:
       exampleServiceRetry:
         baseConfig: default
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    root: INFO
+    com.baomidou.mybatisplus: DEBUG
+    org.mybatis: DEBUG
+    org.springframework: INFO
