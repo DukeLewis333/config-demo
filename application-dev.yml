@@ -13,7 +13,8 @@ spring:
       cache:
         enabled: true
       configurations:
-        - name: default
+        default:
+          name: customLoadBalancer
 #eureka:
 #  instance:
 #    prefer-ip-address: true
