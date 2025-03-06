@@ -23,8 +23,8 @@ spring:
 #    fetch-registry: true
 #    service-url:
 #      defaultZone: http://localhost:8999/eureka/
-server:
-  port: 8788
+# server:
+#   port: 8788
 
 resilience4j:
   circuitbreaker:
