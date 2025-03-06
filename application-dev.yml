@@ -9,12 +9,12 @@ spring:
       # 开启断路器功能
       circuitbreaker:
         enabled: true
-    loadbalancer:
-      cache:
-        enabled: true
-      configurations:
-        default:
-          type: ROUND_ROBIN
+    # loadbalancer:
+    #   cache:
+    #     enabled: true
+    #   configurations:
+    #     default:
+    #       type: ROUND_ROBIN
 #eureka:
 #  instance:
 #    prefer-ip-address: true
